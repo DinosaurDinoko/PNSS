@@ -1,0 +1,27 @@
+{
+    "name": "dinosaurdinoko/pnss",
+    "description": "pnss",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DinosaurDinoko",
+            "email": "mega.lelya1235@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "^2.0@dev",
+        "danil/5lab": "dev-main",
+        "dany/collect5lab": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
